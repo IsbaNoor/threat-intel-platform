@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: extraction-service
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: extraction-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+        spring.json.type.mapping: "ioc:com.threatintel.common.dto.IOC"
+
+server:
+  port: 8082
+
+logging:
+  level:
+    com.threatintel: DEBUG
+
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    deserialization:
+      adjust-dates-to-context-time-zone: false
