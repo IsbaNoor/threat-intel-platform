@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.threatintel.extraction_service.ExtractionServiceApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.99 s - in com.threatintel.extraction_service.ExtractionServiceApplicationTests

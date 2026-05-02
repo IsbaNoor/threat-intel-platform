@@ -1,4 +1,0 @@
-com\threatintel\processing_service\controller\HealthController.class
-com\threatintel\processing_service\ProcessingServiceApplication.class
-com\threatintel\processing_service\config\KafkaConfig.class
-com\threatintel\processing_service\service\ProcessingService.class

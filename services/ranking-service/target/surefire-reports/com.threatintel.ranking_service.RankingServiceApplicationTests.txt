@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.threatintel.ranking_service.RankingServiceApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.01 s -- in com.threatintel.ranking_service.RankingServiceApplicationTests

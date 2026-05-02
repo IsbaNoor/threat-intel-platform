@@ -1,4 +1,0 @@
-com\threatintel\ranking_service\config\KafkaConfig.class
-com\threatintel\ranking_service\RankingServiceApplication.class
-com\threatintel\ranking_service\service\RankingService.class
-com\threatintel\ranking_service\controller\HealthController.class
