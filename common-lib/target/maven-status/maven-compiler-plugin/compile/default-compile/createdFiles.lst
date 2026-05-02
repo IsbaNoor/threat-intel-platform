@@ -1,0 +1,4 @@
+com\threatintel\common\dto\IOC$IOCBuilder.class
+com\threatintel\common\dto\IOC.class
+com\threatintel\common\dto\IOCType.class
+com\threatintel\common\utils\ValidationUtils.class

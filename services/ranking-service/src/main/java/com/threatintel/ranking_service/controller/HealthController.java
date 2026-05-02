@@ -11,9 +11,9 @@ public class HealthController {
     public Map<String, String> health() {
         return Map.of(
                 "status", "UP",
-                "service", "ranking-service",
-                "port", "8084",
-                "mode", "mock"
+                "service", "processing-service",
+                "port", "8083",
+                "redis", "connected"
         );
     }
 
