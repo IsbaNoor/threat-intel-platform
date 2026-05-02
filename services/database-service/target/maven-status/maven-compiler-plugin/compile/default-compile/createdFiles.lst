@@ -1,0 +1,7 @@
+com\threatintel\database_service\config\KafkaConfig.class
+com\threatintel\database_service\repository\IOCRepository.class
+com\threatintel\database_service\DatabaseServiceApplication.class
+com\threatintel\database_service\service\DatabaseService.class
+com\threatintel\database_service\entity\IOCEntity$IOCEntityBuilder.class
+com\threatintel\database_service\entity\IOCEntity.class
+com\threatintel\database_service\controller\HealthController.class
