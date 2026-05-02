@@ -1,0 +1,5 @@
+com\threatintel\extraction_service\config\KafkaConfig.class
+com\threatintel\extraction_service\controller\HealthController.class
+com\threatintel\extraction_service\ExtractionServiceApplication.class
+com\threatintel\extraction_service\service\ExtractionService.class
+com\threatintel\extraction_service\util\IOCExtractor.class

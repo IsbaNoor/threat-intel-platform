@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common-lib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-lib/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/alerting-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/database-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/extraction-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ingestion-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/orchestration-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/processing-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/query-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ranking-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

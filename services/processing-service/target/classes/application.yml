@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: processing-service
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: processing-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+        spring.json.type.mapping: "ioc:com.threatintel.common.dto.IOC"
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+server:
+  port: 8088
+
+processing:
+  whitelist: localhost,127.0.0.1,0.0.0.0
+
+logging:
+  level:
+    com.threatintel: DEBUG
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    deserialization:
+      adjust-dates-to-context-time-zone: false
